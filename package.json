@@ -1,11 +1,10 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev" : "nodemon src/app.js -e js,hbs"
+    "dev": "nodemon src/app.js -e js,hbs"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +14,15 @@
     "hbs": "^4.2.0",
     "mongodb": "^4.11.0",
     "mongoose": "^6.6.7"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanjusonyy/new-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sanjusonyy/new-project/issues"
+  },
+  "homepage": "https://github.com/sanjusonyy/new-project#readme",
+  "description": ""
 }
